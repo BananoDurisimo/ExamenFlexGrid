@@ -126,7 +126,7 @@ nav ul li a {
     padding: 0;
     margin: 0;
     border: none;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .menu-contenido {
@@ -156,14 +156,13 @@ nav ul li a {
     border-radius: 10px;
 }
 
-/* Mostrar menú con hover */
 .menu:hover .menu-contenido {
     display: block;
 }
 
 .Cursos .cursos img {
     width: 95%;
-    height: 25vh;
+    height: 20vh;
     border-radius: 10px;
     transition: transform .3s;
     border: 2px solid #C0A060;
@@ -303,6 +302,10 @@ nav ul li a {
 
     .footer {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .menu{
+        margin-top: 150px;
     }
 
     .redes-sociales {
